@@ -4,6 +4,6 @@
 if SHIELD_iqx3
 
 config ZMK_KEYBOARD_NAME
-	default "Z Keyboard"
+	default "Zshark.0.1"
 
 endif
