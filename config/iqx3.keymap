@@ -1,4 +1,4 @@
-/*
+/*A->B
  * Copyright (c) 2020 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
@@ -20,7 +20,7 @@
 
             bindings = <
   &kp Q       &kp W     &kp E          &kp R        &kp T      &kp Y         &kp U        &kp I         &kp O      &kp P
-  &kp A       &kp S     &kp D          &kp F        &kp G      &kp H         &kp J        &kp K         &kp L      &kp ENTER
+  &kp B       &kp S     &kp D          &kp F        &kp G      &kp H         &kp J        &kp K         &kp L      &kp ENTER
   &kp Z       &kp X     &kp C          &kp V        &kp B      &kp N         &kp M        &lt 3 COMMA   &lt 4 DOT  &kp BSPC
                 &mt LCTRL ESC  &lt 1 SPACE  &kp LSHFT  &mt LALT TAB  &lt 2 SPACE  &mt LWIN DEL
             >;
