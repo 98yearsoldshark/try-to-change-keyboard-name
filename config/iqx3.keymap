@@ -1,4 +1,4 @@
-/*head and foot of each lines add 1
+/*
  * Copyright (c) 2020 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
@@ -20,10 +20,10 @@
             // | --- |   Z   |   X   |   C   |   V   |   B   |   N   |   M   | 3,Spc |  Del  |  BS   |  --- |
             // | --- |  ---  |  ---  | LCtrl | MO(1) | LSht  |  LAlt | MO(2) | LWin  |  ---  |  ---  |  --- | 
             bindings = <
-            &none    &kp Q     &kp W     &kp E         &kp R       &kp T     &kp Y        &kp U       &kp I          &kp O       &kp P     &none
-            &none    &kp A     &kp S     &kp D         &kp F       &kp G     &kp H        &kp J       &kp K          &kp L       &kp ENTER &none 
-            &none    &kp Z     &kp X     &kp C         &kp V       &kp B     &kp N        &kp M       &lt 3 COMMA    &lt 4 DOT   &kp BSPC  &none
-            &none    &none     &none     &mt LCTRL ESC &lt 1 SPACE &kp LSHFT &mt LALT TAB &lt 2 SPACE &mt LWIN DEL   &none       &none     &none        
+&none    &kp Q     &kp W     &kp E         &kp R       &kp T     &kp Y        &kp U       &kp I          &kp O       &kp P     &none
+&none    &kp A     &kp S     &kp D         &kp F       &kp G     &kp H        &kp J       &kp K          &kp L       &kp ENTER &none 
+&none    &kp Z     &kp X     &kp C         &kp V       &kp B     &kp N        &kp M       &lt 3 COMMA    &lt 4 DOT   &kp BSPC  &none
+&none    &none     &none     &mt LCTRL ESC &lt 1 SPACE &kp LSHFT &mt LALT TAB &lt 2 SPACE &mt LWIN DEL   &none       &none     &none        
             >;
         };
 
@@ -37,10 +37,10 @@
             // | --- |   1   |   2   |   3   |  BS   | P-Ent |  CAPS | #Spc  |   ,   |   .   | !#BS  |  --- |
             // | --- |  ---  |  ---  | LCtrl | TO(0) | LSht  |  LAlt | #Spc  | LWin  |  ---  |  ---  |  --- | 
             bindings = <
-            &none   &kp N7    &kp N8    &kp N9    &kp KP_DOT &kp KP_PLUS         &kp KP_MULTIPLY  &kp DLLR      &kp COLON  &kp PIPE   &kp GRAVE    &none 
-            &none   &kp N4    &kp N5    &kp N6    &kp N0     &kp KP_MINUS        &kp KP_SLASH     &kp HASH      &kp LBRC   &kp RBRC   &kp SEMI     &none  
-            &none   &kp N1    &kp N2    &kp N3    &kp BSPC   &kp EQUAL           &kp BSLH         &kp AMPS      &kp LT     &kp GT     &kp SQT      &none
-            &none   &none     &none     &kp LCTRL &to 0      &mt LSHFT KP_ENTER  &kp LALT         &kp LG(SPACE) &kp LWIN   &none      &none        &none
+ &none   &kp N7    &kp N8    &kp N9    &kp KP_DOT &kp KP_PLUS         &kp KP_MULTIPLY  &kp DLLR      &kp COLON  &kp PIPE   &kp GRAVE    &none 
+ &none   &kp N4    &kp N5    &kp N6    &kp N0     &kp KP_MINUS        &kp KP_SLASH     &kp HASH      &kp LBRC   &kp RBRC   &kp SEMI     &none  
+ &none   &kp N1    &kp N2    &kp N3    &kp BSPC   &kp EQUAL           &kp BSLH         &kp AMPS      &kp LT     &kp GT     &kp SQT      &none
+ &none   &none     &none     &kp LCTRL &to 0      &mt LSHFT KP_ENTER  &kp LALT         &kp LG(SPACE) &kp LWIN   &none      &none        &none
             >;
         };
 
