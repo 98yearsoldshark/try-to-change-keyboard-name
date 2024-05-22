@@ -1,6 +1,6 @@
 file_format: "1"
 id: iqx3
-name: X.Tips Keyboard
+name: Zshark.0.1
 type: shield
 url: https://oshwhub.com/joba
 requires: [nrfmicro_13_52840]
