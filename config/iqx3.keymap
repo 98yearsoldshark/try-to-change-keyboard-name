@@ -13,9 +13,7 @@
         compatible = "zmk,keymap";
 
         Base {
-
             // &mt LCTRL ESC  &lt 1 SPACE  &kp LSHFT  &mt LALT TAB  &lt 2 SPACE  &mt LWIN DEL
-
             bindings = <
   &kp A        &lt 1  Q     &kp W        &kp E        &kp R        &kp T        &kp Y        &kp U        &kp I        &kp O        &kp P        &kp A       
   &kp A        &lt 2  A     &kp S        &kp D        &kp F        &kp G        &kp H        &kp J        &kp K        &kp L        &kp BSPC     &kp A       
@@ -31,7 +29,7 @@
             // | --- 
 
             bindings = <
-  &kp A        &kp A        &kp N1      &kp N2        &kp N3      &kp PLUS   &kp MINUS  $kp MULTIPLY  &kp DIVIDE &kp EQUAL        &kp BSPC         &kp A      
+  &kp A        &kp A        &kp N1      &kp N2        &kp N3      &kp PLUS   &kp MINUS        $kp KP_MULTIPLY     &kp SLASH    &kp EQUAL          &kp BSPC         &kp A
   &kp A        &kp N0       &kp N4      &kp N5        &kp N6      &kp EXCL      &kp AT        &kp HASH         &kp DOLLAR    &kp PERCENT         &kp CARET     &kp A        
   &kp A        &kp DOT   &kp N7      &kp N8        &kp N9      &kp AMPS      &kp ASTRK     &kp LPAR        &kp RPAR       &kp UNDER           &kp PIPE      &kp A        
   &kp A        &kp A        &kp A        &kp TAB      &kp CAPS    &kp LSHFT     &kp LCTRL     &kp LWIN        &kp SPACE        
