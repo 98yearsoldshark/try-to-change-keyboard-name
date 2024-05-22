@@ -13,10 +13,7 @@
         compatible = "zmk,keymap";
 
         Base {
-            // | --- |   Q   |   W   |   E   |   R   |   T   |   Y   |   U   |   I   |   O   |   P   |  --- |
-            // | --- |   A   |   S   |   D   |   F   |   G   |   H   |   J   |   K   |   L   |  Ent  |  --- |
-            // | --- |   Z   |   X   |   C   |   V   |   B   |   N   |   M   | 3,Spc |  Del  |  BS   |  --- |
-            // | --- |  ---  |  ---  | LCtrl | MO(1) | LSht  |  LAlt | MO(2) | LWin  |  ---  |  ---  |  --- | 
+
             // &mt LCTRL ESC  &lt 1 SPACE  &kp LSHFT  &mt LALT TAB  &lt 2 SPACE  &mt LWIN DEL
 
             bindings = <
@@ -28,10 +25,10 @@
         };
 
         Number {
-            // | --- | 7 |   8   |   9   |   .   |   +   |   *   |   $   |   :   |   |   |   `   | a 1 2 3 + - * / = bspc --- |
-            // | --- |   4   |   5   |   6   |   0   |   -   |   /   |   #   |   {   |   }   |   ;   |  0 4 5 6 ! @ # $ % ^--- |
-            // | --- |   1   |   2   |   3   |  BS   | P-Ent |  CAPS | #Spc  |   ,   |   .   | !#BS  |. 7 8 9 & * () _ |  --- |
-            // | --- |  ---  |  ---  | LCtrl | TO(0) | LSht  |  LAlt | #Spc  | LWin  |  ---  |  ---  |  --- | 
+            // | ---| a 1 2 3 + - * / = bspc --- |
+            // | --- 0 4 5 6 ! @ # $ % ^--- |
+            // | --- . 7 8 9 & * () _ |  --- |
+            // | --- 
 
             bindings = <
   &kp A        &kp A        &kp N1      &kp N2        &kp N3      &kp KP_PLUS   &kp KP_MINUS  $kp KP_MULTIPLY  &kp KP_DIVIDE &kp KP_EQUAL_AS400  &kp BSPC      &kp A        
